@@ -1,1 +1,6 @@
 nueva linea modificada
+
+---para traer cambios del repositorio remoto, mostrarlos en wd y hacer merge respectivamente
+git fetch origin main
+git checkout origin/main   --- muestra los cambios del fetch en el wd
+git merge origin/main
